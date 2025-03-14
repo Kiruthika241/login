@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: lightcoral;
+        }
+        .box{
+            background-color: aliceblue;
+            width: 30%;
+            height: 70%;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin:auto;
+        }
+        #text{
+            text-align: center;
+        }
+        section{
+            margin-top: 10%;
+        }
+        label{
+            padding: 20px;
+        }
+        #n{
+            padding: 20px;
+            width: 79%;
+            margin-left: 20px;
+        }
+        button{
+            background-color: blueviolet;
+            padding:10px;
+            color: white;
+            border-radius: 10px;
+        }
+        .check{
+            margin-left: 17px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section class="panel">
+        <div class="box">
+            <center>
+                <h1>Login</h1>
+            </center>
+            <label for="email">Email:</label><br>
+            <input id="n" type="email" placeholder="enter your email address" ><br>
+            <label for="password">Password:</label><br>
+            <input id="n" type="password" placeholder="enter your passkey"><br>
+            <div class="check">
+            <input type="checkbox">show password<br><br>
+            </div>
+            <center>
+            <button>Signup</button>
+            </center>
+            <p id="text">Forgot <a href="#">username/password?</a></p>
+            <p id="text">Don't have an account?<a href="signup.html">signup?</a></p>
+        </div>
+    </section>
+</body>
+</html>
